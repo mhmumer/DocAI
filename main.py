@@ -12,7 +12,7 @@ social_media_icons = SocialMediaIcons(social_media_links)
 with st.sidebar:
    api_key = st.text_input("Enter your MediSearch API Key", type="password")
    st.link_button("Create your API Key", "https://medisearch.io/developers/admin?panel=keys")
-   st.warning("Made By Muhammad Umer.")
+   st.info("Made By Muhammad Umer.")
    social_media_icons.render()
    # Create Radio Buttons
    
