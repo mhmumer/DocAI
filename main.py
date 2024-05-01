@@ -38,3 +38,5 @@ if api_key:
          resp=responses[0]
          res=resp.get('text')
          st.info(res)
+
+         st.download_button('Save Response💾', res)
